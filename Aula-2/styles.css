@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+
+  color: #3f3d56;
+  font-family: "roboto", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container-register {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-login {
+  width: 100%;
+  max-width: 515px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+
+.title {
+  font-weight: 700;
+  font-size: 37px;
+  margin: 60px 0 22px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.double-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.space-between {
+  width: 48%;
+}
+
+.label-field {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #323730;
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #abb3a8;
+  padding: 12px 14px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.input-field::placeholder {
+  color: #abb3a8;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.country-asterisk {
+  display: flex;
+}
+
+.asterisk {
+  color: #da2a41;
+  margin-right: 20px;
+}
+
+.country {
+  padding: 12 13 14;
+  border: 1px solid #abb3a8;
+  margin-bottom: 22px;
+}
+
+.box-genre {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+
+  width: 100%;
+}
+
+.genre-title {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.genre-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.genre-radio {
+  min-width: 18px;
+  min-height: 18px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.eula-field {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.checkbox {
+  min-width: 18px;
+  min-height: 18px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.anchor {
+  color: #3ac2e4;
+}
+
+.button {
+  background-color: #3f3d56;
+  color: #ffffff;
+  width: 100%;
+
+  border: 0;
+  padding: 14px 0;
+  border-radius: 5px;
+  margin-bottom: 28px;
+  font-size: 16px;
+
+  transition-duration: 300ms;
+}
+
+.button:hover {
+  background-color: #3f3d56e8;
+}
+
+.paragraph-field {
+  font-size: 14px;
+  margin-bottom: 28px;
+  color: #5A6256;
+
+}
+
+.sign-up {
+  color: #3ac2e4;
+  text-decoration: none;
+}
